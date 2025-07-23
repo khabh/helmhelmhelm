@@ -1,8 +1,11 @@
 helm:
   parameters:
-    - repository: image.name
-      value: khabh/test
-      forcestring: true
-    - name: image.tag
-      value: "0.0.1"
-      forcestring: true
+  - name: ""
+    value: khabh/test
+    forcestring: true
+  - name: image.tag
+    value: "134"
+    forcestring: true
+  - name: image.name
+    value: khabh/test
+    forcestring: true
