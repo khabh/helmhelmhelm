@@ -1,6 +1,6 @@
 helm:
   parameters:
-    - name: image.name
+    - repository: image.name
       value: khabh/test
       forcestring: true
     - name: image.tag
