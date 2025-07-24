@@ -1,8 +1,11 @@
 helm:
   parameters:
-    - repository: image.name
-      value: 507325772667.dkr.ecr.ap-northeast-2.amazonaws.com/ca
-      forcestring: true
-    - name: image.tag
-      value: "256"
-      forcestring: true
+  - name: ""
+    value: 507325772667.dkr.ecr.ap-northeast-2.amazonaws.com/ca
+    forcestring: true
+  - name: image.tag
+    value: "257"
+    forcestring: true
+  - name: image.name
+    value: 507325772667.dkr.ecr.ap-northeast-2.amazonaws.com/ca
+    forcestring: true
