@@ -23,8 +23,9 @@ podSecurityContext: {}
 securityContext: {}
 
 service:
-  type: ClusterIP
-  port: 8080                     # ✅ Spring Boot 기본 포트
+  type: NodePort
+  port: 8080
+  nodePort: 30080 # ✅ Spring Boot 기본 포트
 
 ingress:
   enabled: false
