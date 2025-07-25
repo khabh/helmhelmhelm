@@ -4,5 +4,5 @@ helm:
       value: khabh/test
       forcestring: true
     - name: image.tag
-      value: 134
+      value: "134"
       forcestring: true
