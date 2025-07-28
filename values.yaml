@@ -1,9 +1,9 @@
 replicaCount: 1
 
 image:
-  repository: docker.io/khabh/test         # ✅ 도커허브 사용자명/이미지명
+  repository: 507325772667.dkr.ecr.ap-northeast-2.amazonaws.com/ca        # ✅ 도커허브 사용자명/이미지명
   pullPolicy: IfNotPresent
-  tag: ""                         # 또는 특정 태그: "v1.0.0"
+  tag: "abc123"                         # 또는 특정 태그: "v1.0.0"
 
 imagePullSecrets:
   - name: ecr-registry-secret# 필요하면 설정
