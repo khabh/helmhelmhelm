@@ -6,7 +6,7 @@ image:
   tag: "abc123"                         # 또는 특정 태그: "v1.0.0"
 
 imagePullSecrets:
-  - name: ecr-registry-secret# 필요하면 설정
+  - name: ecr-registry-secret # 필요하면 설정
 
 nameOverride: ""
 fullnameOverride: ""
