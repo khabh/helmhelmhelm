@@ -1,11 +1,12 @@
 replicaCount: 1
 
 image:
-  repository: khabh/test         # ✅ 도커허브 사용자명/이미지명
+  repository: docker.io/khabh/test         # ✅ 도커허브 사용자명/이미지명
   pullPolicy: IfNotPresent
   tag: ""                         # 또는 특정 태그: "v1.0.0"
 
-imagePullSecrets: []             # 필요하면 설정
+imagePullSecrets:
+  - name: ecr-registry-secret# 필요하면 설정
 
 nameOverride: ""
 fullnameOverride: ""
