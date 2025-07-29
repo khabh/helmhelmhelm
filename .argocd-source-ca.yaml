@@ -1,7 +1,7 @@
 helm:
   parameters:
   - name: image.tag
-    value: "258"
+    value: "256"
     forcestring: true
   - name: image.name
     value: 507325772667.dkr.ecr.ap-northeast-2.amazonaws.com/ca
