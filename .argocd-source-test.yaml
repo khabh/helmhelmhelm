@@ -4,5 +4,5 @@ helm:
       value: 507325772667.dkr.ecr.ap-northeast-2.amazonaws.com/ca
       forcestring: true
     - name: image.tag
-      value: "abc124"
+      value: "256"
       forcestring: true
